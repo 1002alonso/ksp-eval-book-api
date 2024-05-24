@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\KspEvalBook.Api.props" />
+</Project>

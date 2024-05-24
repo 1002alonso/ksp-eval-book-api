@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yW1GE2jjwFOojyXe3MVLNYBBYu2FjisZ5UMbCDmd9n4=",
+  "Source": "KspEvalBook.Api",
+  "BasePath": "_content/KspEvalBook.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
