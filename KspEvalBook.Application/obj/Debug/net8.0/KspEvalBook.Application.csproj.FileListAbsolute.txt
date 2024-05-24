@@ -1,0 +1,11 @@
+D:\wwwNet\KSP\BACK\ksp-eval-book-api\KspEvalBook.Application\bin\Debug\net8.0\KspEvalBook.Application.deps.json
+D:\wwwNet\KSP\BACK\ksp-eval-book-api\KspEvalBook.Application\bin\Debug\net8.0\KspEvalBook.Application.dll
+D:\wwwNet\KSP\BACK\ksp-eval-book-api\KspEvalBook.Application\bin\Debug\net8.0\KspEvalBook.Application.pdb
+D:\wwwNet\KSP\BACK\ksp-eval-book-api\KspEvalBook.Application\obj\Debug\net8.0\KspEvalBook.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\wwwNet\KSP\BACK\ksp-eval-book-api\KspEvalBook.Application\obj\Debug\net8.0\KspEvalBook.Application.AssemblyInfoInputs.cache
+D:\wwwNet\KSP\BACK\ksp-eval-book-api\KspEvalBook.Application\obj\Debug\net8.0\KspEvalBook.Application.AssemblyInfo.cs
+D:\wwwNet\KSP\BACK\ksp-eval-book-api\KspEvalBook.Application\obj\Debug\net8.0\KspEvalBook.Application.csproj.CoreCompileInputs.cache
+D:\wwwNet\KSP\BACK\ksp-eval-book-api\KspEvalBook.Application\obj\Debug\net8.0\KspEvalBook.Application.dll
+D:\wwwNet\KSP\BACK\ksp-eval-book-api\KspEvalBook.Application\obj\Debug\net8.0\refint\KspEvalBook.Application.dll
+D:\wwwNet\KSP\BACK\ksp-eval-book-api\KspEvalBook.Application\obj\Debug\net8.0\KspEvalBook.Application.pdb
+D:\wwwNet\KSP\BACK\ksp-eval-book-api\KspEvalBook.Application\obj\Debug\net8.0\ref\KspEvalBook.Application.dll
