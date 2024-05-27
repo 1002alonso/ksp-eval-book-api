@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bCFGAi3/56pryIfhNjP/ppRxTOjm2NQpiiB2webO6IYnc42fH5WUAlEI9s0/9EaexU52M0N50YxKEoGUel03qg==",
+  "dgSpecHash": "r+AMmErtGws=",
   "success": true,
   "projectFilePath": "D:\\BicliotecaProjects\\ksp-eval-book-api\\KspEvalBook.Domain\\KspEvalBook.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\alons\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\alons\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\alons\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\alons\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -21,6 +21,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\KspEvalBook.Application\KspEvalBook.Application.csproj" />
+    <ProjectReference Include="..\KspEvalBook.Domain\KspEvalBook.Domain.csproj" />
+    <ProjectReference Include="..\KspEvalBook.Infrastructure\KspEvalBook.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Models\" />
   </ItemGroup>
 
