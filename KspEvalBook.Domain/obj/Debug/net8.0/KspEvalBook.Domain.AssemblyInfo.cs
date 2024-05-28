@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KspEvalBook.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8575d824189b320ef3c408f54fcd3b2383c0924")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c31fd6a4a0c8d71504842fef61e3797e715dd1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("KspEvalBook.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KspEvalBook.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
