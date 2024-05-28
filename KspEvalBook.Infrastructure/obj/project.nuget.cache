@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "SI9DgE03tls=",
+=======
+  "dgSpecHash": "LUI7TGY7OaM=",
+>>>>>>> a8665d923ac5d3e6a120fa2d9a08b31901376e15
   "success": true,
   "projectFilePath": "D:\\BicliotecaProjects\\ksp-eval-book-api\\KspEvalBook.Infrastructure\\KspEvalBook.Infrastructure.csproj",
   "expectedPackageFiles": [

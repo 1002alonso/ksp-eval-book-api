@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "1PhzFDsiRWU=",
   "success": true,
   "projectFilePath": "D:\\BicliotecaProjects\\ksp-eval-book-api\\KspEvalBook.Application\\KspEvalBook.Application.csproj",
@@ -90,5 +91,11 @@
     "C:\\Users\\alons\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\alons\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "fNHG1RBTZPs=",
+  "success": true,
+  "projectFilePath": "D:\\BicliotecaProjects\\ksp-eval-book-api\\KspEvalBook.Application\\KspEvalBook.Application.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> a8665d923ac5d3e6a120fa2d9a08b31901376e15
   "logs": []
 }
