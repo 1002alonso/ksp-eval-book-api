@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KspEvalBook.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b58a8e9b1b2c4e9d78cca5790da037d3c1fe474c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8665d923ac5d3e6a120fa2d9a08b31901376e15")]
 [assembly: System.Reflection.AssemblyProductAttribute("KspEvalBook.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KspEvalBook.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
