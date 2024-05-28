@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S7Neq4zRnrPbAdPK71pi+rLSYm6rLTH5TpO+SO5dyqJbKFMYQmh6KamO4oJ3PZdRkIPRkUvmIcgcWxeUkj/Gnw==",
+  "dgSpecHash": "GGjPZKGNjv4=",
   "success": true,
-  "projectFilePath": "D:\\wwwNet\\KSP\\BACK\\ksp-eval-book-api\\KspEvalBook.Domain\\KspEvalBook.Domain.csproj",
+  "projectFilePath": "D:\\BicliotecaProjects\\ksp-eval-book-api\\KspEvalBook.Domain\\KspEvalBook.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

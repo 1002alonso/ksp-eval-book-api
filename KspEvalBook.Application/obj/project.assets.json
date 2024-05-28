@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\wwwNet\\KSP\\BACK\\ksp-eval-book-api\\KspEvalBook.Application\\KspEvalBook.Application.csproj",
+      "projectUniqueName": "D:\\BicliotecaProjects\\ksp-eval-book-api\\KspEvalBook.Application\\KspEvalBook.Application.csproj",
       "projectName": "KspEvalBook.Application",
-      "projectPath": "D:\\wwwNet\\KSP\\BACK\\ksp-eval-book-api\\KspEvalBook.Application\\KspEvalBook.Application.csproj",
+      "projectPath": "D:\\BicliotecaProjects\\ksp-eval-book-api\\KspEvalBook.Application\\KspEvalBook.Application.csproj",
       "packagesPath": "C:\\Users\\alons\\.nuget\\packages\\",
-      "outputPath": "D:\\wwwNet\\KSP\\BACK\\ksp-eval-book-api\\KspEvalBook.Application\\obj\\",
+      "outputPath": "D:\\BicliotecaProjects\\ksp-eval-book-api\\KspEvalBook.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -48,6 +48,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
