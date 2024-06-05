@@ -12,6 +12,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin",
+        builder => builder.WithOrigins("*")
+                          .AllowAnyMethod()
+                          .AllowAnyHeader());
+});
+
 builder.Services.AddControllers();
 
 builder.Services.AddDbContext<KspEvalBookDbContext>(options =>
@@ -24,6 +32,16 @@ builder.Services.AddAutoMapper(typeof(EditorialFile));
 
 builder.Services.AddScoped<IGenericService<EditorialDto, Guid>, EditorialService>();
 builder.Services.AddScoped<IGenericReposiory<CbCatEditorial,Guid>, EditorialRepository>();
+
+builder.Services.AddScoped<IGenericService<LibroUsuarioDto, Guid>, LibroUsuarioService>();
+builder.Services.AddScoped<IGenericReposiory<CbTabLibroUsuario, Guid>, LibroUsuarioRepository>();
+
+builder.Services.AddScoped<IGenericService<LibroDto, Guid>, LibroService>();
+builder.Services.AddScoped<IGenericReposiory<CbTabLibro, Guid>, LibroRepository>();
+
+builder.Services.AddScoped<ILibroPrestamoService<LibroPrestamoDto, Guid>, LibroPrestamoService>();
+builder.Services.AddScoped<IPrestamoLibroRepository<CbTabLibroPrestamo, Guid,Guid>, LibroPrestamoRepository>();
+
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -39,6 +57,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowSpecificOrigin");
 
 app.UseAuthorization();
 

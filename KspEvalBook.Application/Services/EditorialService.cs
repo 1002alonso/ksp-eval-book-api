@@ -50,6 +50,7 @@ namespace KspEvalBook.Application.Services
             CbCatEditorial updateEditorial = _repositoryEditorial.Read(entidadId);
 
             updateEditorial.Nombre= entidad.nombre;
+            updateEditorial.DtActualiza = DateTime.UtcNow;
             _repositoryEditorial.Update(updateEditorial);
 
 
@@ -57,15 +58,15 @@ namespace KspEvalBook.Application.Services
 
         public EditorialDto Read(Guid entidadId)
         {
-            CbCatEditorial updateEditorial = _repositoryEditorial.Read(entidadId);
+            CbCatEditorial readEditorial = _repositoryEditorial.Read(entidadId);
 
-            return _mapper.Map<EditorialDto>(updateEditorial);
+            return _mapper.Map<EditorialDto>(readEditorial);
 
         }
 
         public List<EditorialDto> ReadAll()
         {
-            IQueryable< CbCatEditorial> editorials = _repositoryEditorial.ReadAll();
+            IQueryable<CbCatEditorial> editorials = _repositoryEditorial.ReadAll();
             return _mapper.Map<List<EditorialDto>>(editorials);
 
 

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Collections.Generic;
 using System.Net;
+using Microsoft.AspNetCore.Cors;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -29,6 +30,7 @@ namespace KspEvalBook.Api.Controllers
     
         // GET: control-biblioteca/editorial/
         [HttpGet]
+        [EnableCors("AllowSpecificOrigin")]
         public IActionResult Get()
         {
             List<EditorialDto> listEditorial =new List<EditorialDto>();
@@ -156,7 +158,7 @@ namespace KspEvalBook.Api.Controllers
                 return StatusCode((int)HttpStatusCode.InternalServerError, message);
             }
 
-            return Ok();
+            return Ok(message);
 
         }
     }
