@@ -23,7 +23,7 @@ ksp-eval-book-api esta desarrollado con .NET Core 8. El propósito de este proye
 1. Clona el repositorio:
 
     ```bash
-    git clone https://github.com/tu-usuario/tu-repositorio.git
+    git clone https://github.com/1002alonso/ksp-eval-book-api.git de la rama development
     cd tu-repositorio
     ```
 
