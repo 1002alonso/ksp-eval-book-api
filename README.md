@@ -51,7 +51,7 @@ ksp-eval-book-api esta desarrollado con .NET Core 8. El propósito de este proye
 
 
 ## Estructura del Proyecto
-
+```
 KSP-EVAL-BOOK-API
 │
 ├── /KspEvalBook.Api               # Controladores de la aplicación
@@ -61,7 +61,10 @@ KSP-EVAL-BOOK-API
 ├── /KspEvalBook.Domain            # Interfaces
 ├── /KspEvalBook.Infrastructure    # Conexion a base de datos y sus tablas
 ├── /Documentation                 # Documento guia para la creacion de modulos y script para restaurar la bd
-         
+```       
   
 ## Pruebas
+
+```
 dotnet test
+```
