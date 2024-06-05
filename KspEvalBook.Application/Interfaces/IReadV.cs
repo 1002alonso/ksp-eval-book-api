@@ -10,6 +10,8 @@ namespace KspEvalBook.Application.Interfaces
     {
         List<TEntidad> ReadAll();
 
+        
+
         TEntidad Read(TEntidadID entidadId);
     }
 }

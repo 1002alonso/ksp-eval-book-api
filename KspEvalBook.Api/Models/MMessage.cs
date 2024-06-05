@@ -5,6 +5,7 @@
         public string title { get; set; }
         public string mesage { get; set; }
         public string? timestap { get; set; }
+        public string? code { get; set; }
 
         public MMessage()
         {
