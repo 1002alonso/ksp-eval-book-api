@@ -43,7 +43,7 @@ ksp-eval-book-api esta desarrollado con .NET Core 8. El propósito de este proye
 
 ## Uso
 
-Para iniciar la aplicación, usa el siguiente comando:
+1. Para iniciar la aplicación, usa el siguiente comando:
 
     ```bash
     dotnet run
@@ -52,7 +52,7 @@ Para iniciar la aplicación, usa el siguiente comando:
 
 ## Estructura del Proyecto
 
-/KSP-EVAL-BOOK-API
+KSP-EVAL-BOOK-API
 │
 ├── /KspEvalBook.Api               # Controladores de la aplicación
 │    ├── Program.cs                # Punto de entrada de la aplicación
